@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Tipos de Funções</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+		<script src="JS/externo.js"></script>
+	</head>
+	<body>
+		<!-- Função Nomeada -->
+		<button onclick="minhaFuncaoNomeada()">Função Nomeada</button>
+		
+		<!-- Função com argumento e retorno -->
+		<button onclick="mostrarSoma()">Função com argumento e retorno</button>
+		
+		<!-- Função com construtor -->
+		<button onclick="pessoa1.apresentar()">Função com construtor</button>
+		
+		<!-- Função literal (variável) -->
+		<button onclick="minhaFuncaoLiteral()">Função literal (variável)</button>
+		
+		<!-- Função de flecha (arrow function) -->
+		<button onclick="minhaFuncaoDeFlecha()">Função de flecha (arrow function)</button>
+	</body>
+</html>
