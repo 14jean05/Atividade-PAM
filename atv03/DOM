@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>DOM (Document Object Model)</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+		<script src="JS/externo.js"></script>
+	</head>
+	<body>
+		<!-- document.getElementById() -->
+		<div id="exemplo">Este é um exemplo de div.</div>
+		
+		<!-- document.getElementsByTagName() -->
+		<p>Parágrafo 1.</p>
+		<p>Parágrafo 2.</p>
+		
+		<!-- document.getElementsByClassName() -->
+		<p class="exemplo">Este é um exemplo de parágrafo.</p>
+		<p class="exemplo">Outro exemplo de parágrafo.</p>
+		
+		<!-- document.querySelector() -->
+		<div id="exemplo">Este é um exemplo de div.</div>
+		
+		<!-- document.querySelectorAll() -->
+		<p class="exemplo">Este é um exemplo de parágrafo.</p>
+		<p class="exemplo">Outro exemplo de parágrafo.</p>
+	</body>
+</html>
