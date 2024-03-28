@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Eventos em JavaScript</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+		<script src="JS/externo.js"></script>
+	</head>
+	<body>
+		<!-- onfocus: Este evento ocorre quando um elemento recebe o foco. -->
+		<input type="text" id="meuCampo" onfocus="mostrarMensagem()" placeholder="Clique aqui">
+		
+		<!-- onmouseover: Este evento ocorre quando o cursor do mouse é movido sobre um elemento. -->
+		<button id="meuBotao" onmouseover="mudarCor()">Passe o mouse aqui</button>	
+		
+		<!-- onchange: Este evento ocorre quando o valor de um elemento muda (geralmente usado com inputs). -->
+		<select id="meuSelect" onchange="mostrarValorSelecionado()">
+			<option value="Opção 1">Opção 1</option>
+			<option value="Opção 2">Opção 2</option>
+			<option value="Opção 3">Opção 3</option>
+		</select>
+	</body>
+</html>
