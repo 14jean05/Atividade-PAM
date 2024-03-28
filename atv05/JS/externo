@@ -1,0 +1,32 @@
+//Função Nomeada
+function minhaFuncaoNomeada() {
+    alert("Essa é uma função nomeada.");
+}
+
+//Função com argumento e retorno
+function soma(a, b) {
+    return a + b;
+}
+function mostrarSoma() {
+    alert("A soma é: " + soma(5, 3));
+}
+
+//Função com construtor
+function Pessoa(nome, idade) {
+    this.nome = nome;
+    this.idade = idade;
+    this.apresentar = function() {
+        alert("Olá, meu nome é " + this.nome + " e tenho " + this.idade + " anos.");
+    };
+}
+var pessoa1 = new Pessoa("João", 16);
+
+//Função literal (variável)
+var minhaFuncaoLiteral = function() {
+    alert("Essa é uma função literal.");
+};
+
+//Função de flecha (arrow function)
+var minhaFuncaoDeFlecha = () => {
+    alert("Essa é uma função de flecha.");
+};
